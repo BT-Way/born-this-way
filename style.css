@@ -1,30 +1,43 @@
-/* Set font and background */
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Cinzel Decorative', serif;
-  background: linear-gradient(to bottom, #000000, #1a1a1a);
-  color: #fff;
+  background-color: #000;
+  color: #e0e0e0;
+  font-family: 'Anton', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
-.overlay {
-  text-align: center;
+.container {
   padding: 2em;
 }
 
-.content h1 {
-  font-size: 3.5em;
-  letter-spacing: 3px;
+h1 {
+  font-size: 4em;
   text-transform: uppercase;
-  margin: 0.2em 0;
+  letter-spacing: 4px;
+  margin-bottom: 0.3em;
+  text-shadow: 0 0 10px #ffffff22;
 }
 
-.content p {
-  font-size: 1.5em;
-  color: #aaa;
+.coming-soon {
+  font-size: 1.4em;
   letter-spacing: 2px;
+  color: #888;
+  text-shadow: 0 0 5px #ffffff11;
+  margin-bottom: 1em;
+}
+
+.quote {
+  font-size: 1.2em;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  color: #aaa;
+  font-style: italic;
+  max-width: 500px;
+  margin: 0 auto;
+  text-shadow: 0 0 5px #ffffff11;
 }
