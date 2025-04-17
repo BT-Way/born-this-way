@@ -1,0 +1,30 @@
+/* Set font and background */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Cinzel Decorative', serif;
+  background: linear-gradient(to bottom, #000000, #1a1a1a);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  text-align: center;
+  padding: 2em;
+}
+
+.content h1 {
+  font-size: 3.5em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0.2em 0;
+}
+
+.content p {
+  font-size: 1.5em;
+  color: #aaa;
+  letter-spacing: 2px;
+}
